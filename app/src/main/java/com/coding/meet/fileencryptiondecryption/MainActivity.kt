@@ -17,15 +17,20 @@ class MainActivity : AppCompatActivity() {
         val securityManger = SecurityManger(this)
 
         encryptBtn.setOnClickListener {
+//            securityManger.encryptFile(
+//                "demo.txt",
+//                "encryptedDemo.txt"
+//            )
+
             securityManger.encryptFile(
-                "demo.txt",
-                "encryptedDemo.txt"
+                "question.json",
+                "encryptedQuestion.json"
             )
         }
 
         decryptBtn.setOnClickListener {
             val decryptionFileToString = securityManger.decryptFile(
-                "encryptedDemo.json"
+                "encryptedQuestion.json"
             )
             Log.d("decryptionFileToString",decryptionFileToString)
         }
