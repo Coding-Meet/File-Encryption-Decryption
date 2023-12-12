@@ -1,5 +1,14 @@
-# File-Encryption-Decryption
-How to Encrypt and Decrypt a File in Android Studio Kotlin
+# Encrypt and Decrypt a File in Android Studio Kotlin
+
+In this YouTube tutorial, you'll learn how to implement the AES (Advanced Encryption Standard) algorithm to encrypt and decrypt a file in Android Studio using Kotlin. The tutorial will guide you through the step-by-step process of encrypting a file to ensure its confidentiality and then decrypting it back to its original form. You'll understand the basics of AES encryption, key generation, and how to apply the algorithm to secure your files in an Android app. By the end of the tutorial, you'll have a clear understanding of how to use AES encryption to protect sensitive data in your Android applications. Don't miss out on this essential skill for enhancing the security of your mobile apps!
+
+## 🚀 What You'll Learn
+
+- Implementing AES encryption in Android Studio with Kotlin.
+- Step-by-step guide on encrypting a file for confidentiality.
+- Decrypting a file to its original form using AES.
+- Basics of AES encryption, key generation, and application in Android.
+
 
 # [YouTube Video Link](https://youtu.be/TNSLN6d_0RM)
 
